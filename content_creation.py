@@ -13,6 +13,8 @@ import random
 import csv
 
 
+LOGIN=""
+PASSWORD = ""
 def make_hashtags(hashtags):
     line = ""
     for i in hashtags:
@@ -174,7 +176,7 @@ def make_a_post():
 
 hashtags = ["#totorontos", "#toronto",  "#ontario", "#torontoontario", "#canada", "#city", "#canadian", "#raptors","#torontoinsta","#thankyoutoronto","#inthesix","#6ixwalks","#torontomind","#blogto", "#urban_shots","#livelovecanada","#citygrammers","#trueto","#inside_to","#wethenorth","#streetsoftoronto","#torontospirit","#six"]
 
-api = InstagramAPI("totorontos", "Centauri2014")
+api = InstagramAPI(LOGIN, PASSWORD)
 api.login()
 
 
