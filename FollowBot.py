@@ -26,9 +26,9 @@ change to either Yes(followed me back)/No(haven't followed me back)
 follow_today = []
 following_limit = 1000
 
-
-
-api = InstagramAPI("totorontos", "Centauri2014")
+LOGIN=""#your login here
+PASSWORD = ""#your password here
+api = InstagramAPI(LOGIN, PASSWORD)
 api.login()
 
 myfollowers = []
